@@ -47,6 +47,6 @@ function generatePassword() {
     randomChar = selectedCharArray[randomCharNum];
     passwordString = randomChar;
   };
-  document.getElementById("password").val= generatePassword;
+  document.getElementById("password").value= generatePassword;
 };
 
